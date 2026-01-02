@@ -1,0 +1,12 @@
+BasedOnStyle: LLVM
+
+# Braces on same line (from your previous question)
+BreakBeforeBraces: Attach
+
+# Make constructor initializer lists break nicely
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerIndentWidth: 2
+
+# Optional, improves line breaking behavior
+ColumnLimit: 75
+AllowShortFunctionsOnASingleLine: None
